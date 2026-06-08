@@ -1,3 +1,9 @@
+---
+title: Enabling MCP Authentication in ABP Framework with OpenIddict
+tags:
+  - mcp
+  - oauth
+---
 # Enabling MCP Authentication in ABP Framework with OpenIddict
 
 Every ABP Framework application already ships with a fully configured OAuth 2.1 / OpenID Connect **Authorization Server** — the bundled [OpenIddict module](https://abp.io/docs/latest/modules/openiddict). We usually think of it as the thing that logs users into the web UI and issues tokens to the Swagger client. But it is a real, spec-compliant authorization server, and that turns out to be exactly what the **Model Context Protocol (MCP)** needs.
